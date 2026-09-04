@@ -1,0 +1,22 @@
+﻿{
+  "name": "danke-mcp-server",
+  "version": "1.0.0",
+  "description": "《弹壳特攻队》资产中台与自媒体运营 MCP (Model Context Protocol) 插件服务",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/test-client.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "danke",
+    "model-context-protocol",
+    "ai-agent"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.25.76"
+  }
+}
