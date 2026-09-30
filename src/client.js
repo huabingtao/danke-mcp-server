@@ -1,4 +1,4 @@
-﻿/**
+/**
  * danke-core API 通信客户端
  * 负责与 danke-core 后端进行安全、带超时控制的 HTTP 通信
  * 预留了 BaseURL 动态注入与线上 Token 口子
