@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 /**
  * danke-mcp-server 入口文件 (Stdio 模式)
  * 
