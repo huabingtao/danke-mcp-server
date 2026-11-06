@@ -69,7 +69,7 @@ server.tool(
         content: [
           {
             type: "text",
-            text: `[获取提醒规则失败]: ${error.message}。请检查 danke-core (localhost:3000) 是否已启动。`,
+            text: `[获取提醒规则失败]: ${error.message}。请检查 danke-core (localhost:6101) 是否已启动。`,
           },
         ],
       };
@@ -151,7 +151,7 @@ server.tool(
         content: [
           {
             type: "text",
-            text: `[获取月度收益失败]: ${error.message}。请检查 danke-core (localhost:3000) 是否正常运行。`,
+            text: `[获取月度收益失败]: ${error.message}。请检查 danke-core (localhost:6101) 是否正常运行。`,
           },
         ],
       };

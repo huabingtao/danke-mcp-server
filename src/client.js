@@ -7,7 +7,7 @@
 export class DankeApiClient {
   constructor(options = {}) {
     // 优先读取环境变量，没有则默认走本地开发端口 3000
-    this.baseUrl = (options.baseUrl || process.env.DANKE_API_BASE_URL || 'http://localhost:3000').replace(/\/$/, '');
+    this.baseUrl = (options.baseUrl || process.env.DANKE_API_BASE_URL || 'http://localhost:6101').replace(/\/$/, '');
     this.apiToken = options.apiToken || process.env.DANKE_AUTH_TOKEN || '';
     this.timeout = options.timeout || 10000; // 默认 10 秒超时
   }

@@ -24,3 +24,7 @@ npm test
 # 启动 MCP 服务 (Stdio 模式)
 npm start
 ```
+
+## 本地端口约定
+
+Core 6101，Web 6102，Admin 6103，Rank 6104，Market 开发 6105、独立服务 6106、预览 6112，潮汐开发 6107、API 6108、预览 6113，工具门户 6109，提醒服务 6110，Windows 桥接 6111。显式环境配置优先；线上端口保持部署配置。MCP 使用 stdio，连接 http://localhost:6101。修改 MCP 配置后需重新连接客户端。
